@@ -1,0 +1,137 @@
+@charset "UTF-8";
+*{
+    margin:0;
+    padding:0;
+}
+/*menu*/
+.fundo_menu{
+    background: #201827;
+    height: 96.9vh;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.box{
+    position: absolute;
+    background-color: #ff7b00;
+    width: 300px;
+    padding: 5px;
+    color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/*tabela de jogo*/
+#fim_de_jogo{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    opacity: 0.98;
+    position: absolute;
+    background-color: #000000;
+    color: yellow;
+    display: none;
+}
+#fim_de_jogo h2,h3{
+    margin-top: 20%;
+}
+.formu{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ff7b00;
+    width: 300px;
+    padding: 5px;
+    border-radius: 15px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.fundo{
+    background: #201827;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    height: 96.6vh;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    margin: 20% auto;
+    max-width: 300px;
+    padding: 10px;
+    background-color: #000000;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    display: none;
+}
+.tabela{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.bloco{
+    width: 90px;
+    height: 50px;
+    font-size: 30px;
+    margin: 4px 2px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #000000;
+}
+.bloco:hover{
+    background-color: rgba(207, 39, 39, 0.849);
+}
+div input{
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+div button{
+    background-color: #fff;
+    width: 80px;
+    height: 40px;
+    margin: 30px;
+    font-weight: bold;
+    font-size: larger;
+}
+button:hover{
+    background: #000000e1;
+    color: #fff;
+}
+.verificar{
+    background: rgba(0, 0, 0, 0.452);
+    width: 100px;
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.verificar:hover{
+    background: #000000;
+}
+.inputs:hover{
+    box-shadow: 10px 15px 50px rgb(48, 48, 48);
+}
+footer{
+    padding: 20px;
+    color: rgb(107, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#rodape{
+    background: #ffffffc5;
+}
